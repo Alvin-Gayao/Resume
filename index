@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Resume</title>
+  </head>
+  <body>
+    <header>
+      <h2>GAYAO, ALVIN T.</h2>
+      <p>Itogon Benguet</p>
+      <p>Mobile +639998786032</p>
+      <aside>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="">Page 2</a></li>
+          <li><a href="">Page 3</a></li>
+        </ul>
+      </aside
+    </header>
+    <section>
+      <h3>PERSONAL DATA</h3>
+      <table>
+        <tr>
+          <td>Date of Birth: </td>
+          <td>February 11, 1992</td>
+        </tr>
+        <tr>
+          <td>Place of Birth: </td>
+          <td>Itogon Benguet</td>
+        </tr>
+        <tr>
+          <td>Civil Status: </td>
+          <td>Married</td>
+        </tr>
+        <tr>
+          <td>Citizenship: </td>
+          <td>Filipino</td>
+        </tr>
+        <tr>
+          <td>Religion: </td>
+          <td>Catholic</td>
+        </tr>
+      </table>
+    </section>
+    <section>
+      <h3>EDUCATIONAL BACKGROUND</h3>
+      <table>
+        <tr>
+          <td>Primary </td>
+          <td>Ampucao Elementary School</td>
+        </tr>
+        <tr>
+          <td>Secondary </td>
+          <td>Baguio City National High School </td>
+        </tr>
+        <tr>
+          <td>Tertiary</td>
+          <td>University of the Cordilleras</td>
+        </tr>
+      </table>
+    </section>
+    <section>
+      <h3>Employment History</h3>
+      
+    </section>
+    <footer>
+    </footer>
+  </body>
+  
+</html>
