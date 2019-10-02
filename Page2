@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <title>My Personal Data</title>
   </head>
   <body>
-    <header></header>
-    <section></section>
-    <section></section>
+    <header>
+    <h3>PERSONAL INFORMATION</h3>
+    </header>
+    <section>
+    </section>
+    <section>
+    </section>
     <footer></footer>
   </body>
 </html>
