@@ -1,53 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>My Resume</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="resume.css">
-  </head>
-  <body>
-    <header>
-      <table>
-        <tr>
-          <td>
-            <h2>GAYAO, ALVIN T.</h2>
-            <p>Itogon Benguet</p>
-            <p>Mobile +639998786032</p>
-          </td>  
-        </tr>
-      </table>
-      <aside>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="educ.html">Education</a></li>
-          <li><a href="workexp.html">Work</a></li>
-        </ul>
-      </aside>
-    </header>
-    <section>
-      <h3>OBJECTIVES</h3>
-      <p>To succeed in a setting of growth and excellence at the same time earn a job which provides me self development and help me to achieve organizational goals.</p><br>
-    </section>
-    <section>
-      <h3>SKILLS</h3>
-      <ol>
-        <li>Ability on decision making, adopting Software Modeling and Design tools</li>
-        <li>Knowledgeable in Java programming language</li>
-        <li>Knowledgeable in Web application development tools like JavaScript, HTML5,CSS3 and PHP</li>
-        <li>Equipped with good communication skills; both writing and verbally</li>
-        <li>Other skills include Basic Computer Troubleshooting and Computer Networking</li>
-        <li>Hardworking, Trainable, Fast Learner and can work under minimal supervision</li>
-      </ol>
-    </section>
-    
-    <footer>
-      <h3>CHARACTER REFERENCE</h3>
-      <h4>RIC ALLAN GATCHALIAN</h4>
-      <p>Co-Owner</p>
-      <p>Rod-Allan Studio</p>
-      <p>Rosario La Union, Philippines</p>
-      <p>Telephone No.: (074) 412-2795</p>
-    </footer>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Alvin Gayao Resume</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/resume.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+<!-------Header Section------>  
+  <header id="header">
+    <div class="container text-center">
+      <div class="user-box">
+        <img src="img/formal.jpeg">
+        <h1>Alvin Gayao</h1>
+        <p>Freelance Front End Developer</p>
+      </div>
+    </div>
+    <div class="scroll-btn">
+      <div class="scroll-bar"><a href=""><span></span></a></div>
+    </div>
+  </header>
   
+  <!--------User Info Section-------->
+  <section id="user-info">
+    <div class="nav-bar">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><img src="img/alvin.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT ME</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">RESUME</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT ME</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+  </div>
+  <!-------About section------->
+  <div class="about container" id="about">
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <img src="img/pose.jpg" class="profile-img">
+        </div>
+        <div class="col-md-6">
+          <h3>WHO AM I ?</h3>
+          <p>IT Student, UCian, Bike Enthusiast, Simple Guy (Let us not complicate things)</p>
+          <div class="skills-bar">
+            <p>Photoshop</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 60%;">60%</div> 
+            </div>
+            <p>HTML5</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 80%;">80%</div> 
+            </div>
+            <p>UI Design</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 75%;">75%</div> 
+            </div>
+            <p>Wordpress</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 50%;">50%</div> 
+            </div>
+            <p>Graphics Design</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 70%;">70%</div> 
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <!-------------social icons----------->
+  <div class="social-icons">
+    <ul>
+      <a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+      <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+      <a href="#"><li><i class="fa fa-medium"></i></li></a>
+      <a href="#"><li><i class="fa fa-github"></i></li></a>
+      <a href="#"><li><i class="fa fa-behance"></i></li></a>
+    </ul>
+  </div>
+
+  <!-------------Resume---------->
+  <div class="resume" id="resume">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3 class="text-center">My Experiences</h3>
+            <ul class="timeline">
+              <li>
+                <h4><span>2020 - </span>Front End Developer</h4>
+                <p>To succeed in a setting of growth and excellence at the same time earn a job which provides me self development and help me to achieve organizational goals.<br>
+                <b>Company</b> - University of the Cordilleras<br>
+                <b>Duration</b> - 3 years [2018 - 2020]<br>
+                <b>Location</b> - Baguio City
+                </p>
+              </li>
+              <li>
+                <h4><span>2019 - </span>On The Job Training</h4>
+                <p>To succeed in a setting of growth and excellence at the same time earn a job which provides me self development and help me to achieve organizational goals.<br>
+                <b>Company</b> - Gaoat General Hospital<br>
+                <b>Duration</b> - 2 months [October - December 2019]<br>
+                <b>Location</b> - Ilocos Norte
+                </p>
+              </li>
+              <li>
+                <h4><span>2018 - </span>College Project</h4>
+                <p>To succeed in a setting of growth and excellence at the same time earn a job which provides me self development and help me to achieve organizational goals.<br>
+                <b>Company</b> - Dlen's Studio<br>
+                <b>Duration</b> - 2 months [June - August 2018]<br>
+                <b>Location</b> - Baguio City
+                </p>
+              </li>
+            </ul>
+        </div>
+
+        <div class="col-md-6">
+          <h3 class="text-center">My Education</h3>
+            <ul class="timeline">
+              <li>
+                <h4><span>2018 - </span>Bachelor of Science in Information Technology</h4>
+                <p>To succeed in a setting of growth and excellence at the same time earn a job which provides me self development and help me to achieve organizational goals.<br>
+                <b>Institute</b> - University of the Cordilleras<br>
+                <b>Duration</b> - 3 years [2018 - 2020]<br>
+                <b>Location</b> - Baguio City
+                </p>
+              </li>
+              <li>
+                <h4><span>2004 - </span>High School</h4>
+                <p>To succeed in a setting of growth and excellence at the same time earn a job which provides me self development and help me to achieve organizational goals.<br>
+                <b>Institute</b> - BCNHS<br>
+                <b>Duration</b> - 2004 - 2008<br>
+                <b>Location</b> - Baguio City
+                </p>
+              </li>
+              <li>
+                <h4><span>1998 - </span>Grade School</h4>
+                <p>To succeed in a setting of growth and excellence at the same time earn a job which provides me self development and help me to achieve organizational goals.<br>
+                <b>Institute</b> - Ampucao Elementary School<br>
+                <b>Duration</b> - 1998 - 2004<br>
+                <b>Location</b> - Itogon Benguet
+                </p>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--------services------>
+  <div class="services" id="services">
+    <div class="container">
+      <h1 class="text-center">My Offered Services</h1>
+      <p class="text-center">Contact me for more information.</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="services-box">
+            <i class="fa fa-rocket"></i><span>Graphics</span>
+            <p>To succeed in a setting of growth and excellence at the same time earn a job which provides me self development and help me to achieve organizational goals. Contact me for more information.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="services-box">
+            <i class="fa fa-line-chart"></i><span>Marketing</span>
+            <p>To succeed in a setting of growth and excellence at the same time earn a job which provides me self development and help me to achieve organizational goals. Contact me for more information.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="services-box">
+            <i class="fa fa-laptop"></i><span>Development</span>
+            <p>To succeed in a setting of growth and excellence at the same time earn a job which provides me self development and help me to achieve organizational goals. Contact me for more information.</p>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>
+  
+  <!---------contact-------->
+  
+  <div class="contact" id="contact">
+    <div class="container text-center">
+      <h1>Contact Me</h1>
+      <p class="text-center">Contact me for more information.</p>
+      <div class="row">
+        <div class="col-md-4">
+          <i class="fa fa-phone"></i>
+          <p>+639998786032</p>
+        </div>
+        <div class="col-md-4">
+          <i class="fa fa-envelope"></i>
+          <p>chalvin2145@gmail.com</p>
+        </div>
+        <div class="col-md-4">
+          <i class="fa fa-internet-explorer"></i>
+          <p>www.alvingayao.com</p>
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary"><i class="fa fa-download"></i>Resume</button>
+      <button type="button" class="btn btn-primary"><i class="fa fa-rocket"></i>Hire Me</button>
+    </div>
+  </div>
+  </section>
+  <!----------------footer------------->
+  <footer id="footer">
+    <div class="text-center">
+      <p>Made with <i class="fa fa-heart-o"></i> for you.</p>
+      <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</p>
+    </div>
+  </footer>
+</body>
 </html>
